@@ -1,0 +1,58 @@
+target/
+*.bak
+
+### Maven ###
+.m2
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### npm ###
+node_modules/
+
+### VSCode ###
+.vscode/
+
+### Eclipse Spring launchers ###
+/*/bin/
+/*/core/bin/
+/*/launcher/bin/
+
+### MySQL Workbench ###
+*.mwb.bak
+
+### Workflow generated files ###
+workflow/gen/
+workflow/src/main/antlr4/gen/
+workflow/src/main/java/com/yseop/aa/workflow/template/generated/
+workflow-service/core/gen
+workflow-service/core/src/main/java/com/yseop/aa/wfs/core/workflow/tasks/tag/simplifiedmdx/generated
+
+### Documentation ###
+/documentation/modules/ROOT/partials/APIs/services/*/.openapi-generator-ignore
+/documentation/modules/ROOT/partials/APIs/services/*/.openapi-generator/**
+/documentation-generation/API/
+
+### Third-party license management ###
+third-party.csv
