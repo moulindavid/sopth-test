@@ -41,7 +41,7 @@ public class ComputerService {
     }
 
     public Float getEnergyConsumptionForMonth(int year, int month) {
-        return computerRepository.getEnergyConsumptionForMonth(year, month);
+        return computerRepository.getEnergyConsumptionForMonth(year, month) / 12;
     }
 
     public Float getExpensesForMonth(int year, int month) {

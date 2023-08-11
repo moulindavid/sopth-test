@@ -26,4 +26,12 @@ export class ComputerService {
         //TODO: handle list creation
         return axios.post(this.apiUrl, body).then((res) => res.data[0]);
     }
+
+    public getConsumption(year: number, month: number): Promise<number> {
+        return axios.get(this.apiUrl + "/consumptions", {params: { year: year, month: month }}).then((res) => res.data);
+    }
+
+    public getExpense(year: number, month: number): Promise<number> {
+        return axios.get(this.apiUrl + "/expenses", {params: { year: year, month: month }}).then((res) => res.data);
+    }
 }
